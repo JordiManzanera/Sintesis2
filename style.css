@@ -421,6 +421,7 @@ padding: 1em;
 
   #intro{
     position: relative;
+    top: 1em;
     width: 100%;
     height: 28em;
     background-color: #f27108;
@@ -484,7 +485,6 @@ padding: 1em;
   #grid{
     position: relative;
     grid-template-columns: 1fr 1fr 1fr;
-    display: grid;
   }
 
   .grid-content{
@@ -552,7 +552,6 @@ padding: 1em;
   #grid-desarrollo {
     position: relative;
     grid-template-columns: 1fr;
-    display: grid;
     border-top: black 8px inset;
     padding-left: 0;
     padding-right: 0;
@@ -602,7 +601,6 @@ padding: 1em;
   }
 
   .imagenes-materiales{
-    display: grid;
     grid-template-columns: 1fr 1fr ;
   }
 
@@ -688,7 +686,6 @@ padding: 1em;
 
   #footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    display: grid;
     padding-left: 7px;
     padding-right: 7px;
     background-color: #273746;
